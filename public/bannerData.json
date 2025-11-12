@@ -1,0 +1,113 @@
+[
+  {
+    "id": "slide1",
+    "imageSrc": "https://i.ibb.co.com/vxr4W9bb/banner-6.jpg",
+    "altText": "Family smiling while using a tablet for financial management.",
+    "title": "Manage All Your Utilities in One Place",
+    "description": "Simplify your finances and keep track of everything.",
+    "prevSlide": "slide12",
+    "nextSlide": "slide2"
+  },
+  {
+    "id": "slide2",
+    "imageSrc": "https://i.ibb.co.com/fBJdPT9/banner1.jpg",
+    "altText": "Abstract financial charts and graphs on a laptop screen.",
+    "title": "Gain Clear Financial Overview",
+    "description": "Visualize your spending and make smarter decisions.",
+    "prevSlide": "slide1",
+    "nextSlide": "slide3"
+  },
+  
+  {
+    "id": "slide3",
+    "imageSrc": "https://i.ibb.co.com/cSfJPZzG/banner2.png",
+    "altText": "Someone reviewing a stack of paper bills on a desk.",
+    "title": "Streamline Your Monthly Payments",
+    "description": "Reduce stress with automated bill reminders and payments.",
+    "prevSlide": "slide2",
+    "nextSlide": "slide4"
+  },
+   {
+    "id": "slide4",
+    "imageSrc": "https://i.ibb.co.com/sMsngD2/banner-5.jpg",
+    "altText": "Woman smiling while using a laptop to manage finances.",
+    "title": "Empower Your Financial Freedom",
+    "description": "Take control and achieve your financial goals.",
+    "prevSlide": "slide3",
+    "nextSlide": "slide5"
+  },
+  {
+    "id": "slide5",
+    "imageSrc": "https://i.ibb.co.com/HDyXY3mT/banner3.jpg",
+    "altText": "A minimalist workspace with a laptop and coffee.",
+    "title": "Clean Interface, Simple Management",
+    "description": "Enjoy a user-friendly experience designed for clarity.",
+    "prevSlide": "slide4",
+    "nextSlide": "slide6"
+  },
+  {
+    "id": "slide6",
+    "imageSrc": "https://i.ibb.co.com/F2C6Dw4/banner-9.jpg",
+    "altText": "Close-up of a finger scanning a futuristic digital lock.",
+    "title": "Your Financial Data, Secured",
+    "description": "Advanced security measures protect your sensitive information.",
+    "prevSlide": "slide5",
+    "nextSlide": "slide7"
+  },
+  {
+    "id": "slide7",
+    "imageSrc": "https://i.ibb.co.com/KcyrKTJV/banner-10.jpg",
+    "altText": "Professional working on a laptop with data visualizations.",
+    "title": "Smart Budgeting & Analytics",
+    "description": "Understand your spending habits with insightful reports.",
+    "prevSlide": "slide6",
+    "nextSlide": "slide8"
+  },
+  {
+    "id": "slide8",
+    "imageSrc": "https://i.ibb.co.com/0jW1Y4mM/banner-primary.png",
+    "altText": "Modern home interior with subtle smart technology elements.",
+    "title": "Integrate Your Home Utilities Seamlessly",
+    "description": "A single platform for all your household bills.",
+    "prevSlide": "slide7",
+    "nextSlide": "slide9"
+  },
+  {
+    "id": "slide9",
+    "imageSrc": "https://i.ibb.co.com/DPMRXVtn/banner-4.jpg",
+    "altText": "Woman looking thoughtfully at paper bills and a calculator.",
+    "title": "Effortless Bill Organization",
+    "description": "Say goodbye to messy paperwork and missed payments.",
+    "prevSlide": "slide8",
+    "nextSlide": "slide10"
+  },
+  
+  {
+    "id": "slide10",
+    "imageSrc": "https://i.ibb.co.com/Q7xyFrFd/banner-7.jpg",
+    "altText": "A smartphone displaying a 'PAID' bill confirmation.",
+    "title": "Pay Bills Securely and On Time",
+    "description": "Quick, safe, and reliable payments for all your utilities.",
+    "prevSlide": "slide9",
+    "nextSlide": "slide11"
+  },
+  {
+    "id": "slide11",
+    "imageSrc": "https://i.ibb.co.com/dJ4QBwJD/banner-8.jpg",
+    "altText": "Hand holding a smartphone with financial app on a busy street.",
+    "title": "Manage Your Bills Anytime, Anywhere",
+    "description": "Access your financial dashboard on the go.",
+    "prevSlide": "slide10",
+    "nextSlide": "slide12"
+  },
+ 
+  {
+    "id": "slide12",
+    "imageSrc": "https://i.ibb.co.com/hFFDSXsq/IT-Sector.jpg",
+    "altText": "Abstract representation of the IT sector or data flow.",
+    "title": "Powered by Robust Technology",
+    "description": "Reliable and scalable solutions for your billing needs.",
+    "prevSlide": "slide11",
+    "nextSlide": "slide1"
+  }
+]
