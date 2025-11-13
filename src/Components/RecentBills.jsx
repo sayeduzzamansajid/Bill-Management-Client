@@ -45,9 +45,9 @@ const RecentBills = () => {
                   <p className="text-sm font-semibold mt-2 text-blue-600">
                     ৳ {bill.amount}
                   </p>
-                  <button className="mt-3 w-full bg-primary text-white py-1 rounded hover:bg-blue-700 transition">
-                    <Link to={`/bills/${bill._id}`}>See Details</Link>
-                  </button>
+                  <Link to={`/bills/${bill._id}`}><button className="mt-3 w-full bg-primary text-white py-1 rounded hover:bg-blue-700 transition">
+                    See Details
+                  </button></Link>
                 </div>
               </div>
             ))}

@@ -3,16 +3,16 @@ import { AuthContext } from '../Context/AuthContext';
 import { Link } from 'react-router';
 
 const AllBillsPage = () => {
-    const {allBills,loading} = useContext(AuthContext)
+  const { allBills, loading } = useContext(AuthContext)
 
-    if (loading) {
+  if (loading) {
     return (
       <div className="text-center py-20 text-gray-500">Loading recent bills...</div>
     );
   }
 
-    return (
-        <section className="py-16 bg-gray-50 dark:bg-secondary w-[90vw] mx-auto mb-30 rounded-lg shadow-2xl">
+  return (
+    <section className="py-16 bg-gray-50 dark:bg-secondary w-[90vw] mx-auto mb-30 rounded-lg shadow-2xl">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center flex items-center justify-center gap-2">All Bills Here <p className='text-lg text-gray-500'>Total ({allBills.length})</p></h2>
 
@@ -42,11 +42,11 @@ const AllBillsPage = () => {
                     <strong>Date:</strong> {bill.date}
                   </p>
                   <p className="text-sm font-semibold mt-2 text-blue-600">
-                     <strong className='text-gray-500 text-lg'>Amount : </strong> {bill.amount} BDT
+                    <strong className='text-gray-500 text-lg'>Amount : </strong> {bill.amount} BDT
                   </p>
-                  <button className="mt-3 w-full bg-primary text-white py-1 rounded hover:bg-blue-700 transition">
-                    <Link to={`/bills/${bill._id}`}>See Details</Link>
-                  </button>
+                  <Link to={`/bills/${bill._id}`}><button className="mt-3 w-full bg-primary text-white py-1 rounded hover:bg-blue-700 transition">
+                    See Details
+                  </button></Link>
                 </div>
               </div>
             ))}
@@ -54,7 +54,7 @@ const AllBillsPage = () => {
         )}
       </div>
     </section>
-    );
+  );
 };
 
 export default AllBillsPage;
