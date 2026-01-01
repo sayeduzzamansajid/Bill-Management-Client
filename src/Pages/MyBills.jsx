@@ -17,10 +17,10 @@ const MyBills = () => {
   const totalAmount = myBills.reduce((sum, bill) => sum + Number(bill.amount || 0), 0);
 
   useEffect(() => {
-    if (user && user.email) {
-      setLoading(true);
+    // if (user && user.email) {
+    //   setLoading(true);
 
-      axios.post(`https://bill-management-server-five.vercel.app/bills/my-bills`, { email: user.email })
+      axios.get(`https://bill-management-server-five.vercel.app/bills/my-bills?email=${user.email}`)
         .then((res) => {
           setMyBills(res.data);
           setLoading(false);
@@ -29,8 +29,8 @@ const MyBills = () => {
           console.error(err);
           setLoading(false);
         });
-    }
-  }, [user,setLoading]);
+    // }
+  }, [user.email,setLoading]);
 
   // Download Report as pdf
  const handleDownloadReport = () => {
