@@ -1,18 +1,32 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* your theme definitions are ok */
 @plugin "daisyui/theme" {
-   name: "light";
+  name: "light";
   default: true;
   --color-primary: #35374B;
   --color-secondary: #35374B50;
 }
+
 @plugin "daisyui/theme" {
   name: "dark";
   default: false;
   --color-primary: #35374B;
   --color-secondary: #35374B50;
 }
- /* @plugin "daisyui" {
-  themes: light --default, dark --prefersdark;
-} */
-/* @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *)); */
+
+@layer base {
+  /* Light (default) */
+  body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8fafc, #ffffff, #eef2ff);
+    color: #0f172a;
+  }
+
+  /* Dark when daisyUI theme is dark */
+  html[data-theme="dark"] body {
+    background: linear-gradient(135deg, #020617, #0f172a, #1e1b4b);
+    color: #f8fafc;
+  }
+}
